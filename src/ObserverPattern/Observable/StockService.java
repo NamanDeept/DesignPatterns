@@ -1,9 +1,6 @@
-package Observable;
+package ObserverPattern.Observable;
 
-import Observer.NotificationAlertService;
-
-import java.util.List;
-import java.util.Set;
+import ObserverPattern.Observer.NotificationAlertService;
 
 public interface StockService {
     public void add(NotificationAlertService notificationAlertService);

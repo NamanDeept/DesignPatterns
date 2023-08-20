@@ -1,7 +1,7 @@
-package Observer;
+package ObserverPattern.Observer;
 
-import Observable.IPhoneStockServiceImpl;
-import Observable.StockService;
+import ObserverPattern.Observable.IPhoneStockServiceImpl;
+import ObserverPattern.Observable.StockService;
 
 public class EmailServiceServiceImpl implements NotificationAlertService {
 

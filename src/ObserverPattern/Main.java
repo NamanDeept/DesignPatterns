@@ -1,10 +1,13 @@
-import Observable.IPhoneStockServiceImpl;
-import Observer.EmailServiceServiceImpl;
-import Observer.MobileServiceServiceImpl;
-import Observer.NotificationAlertService;
+package ObserverPattern;
+
+import ObserverPattern.Observable.IPhoneStockServiceImpl;
+import ObserverPattern.Observer.EmailServiceServiceImpl;
+import ObserverPattern.Observer.MobileServiceServiceImpl;
+import ObserverPattern.Observer.NotificationAlertService;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Hello world!");
         IPhoneStockServiceImpl iPhoneStocks = new IPhoneStockServiceImpl();
         NotificationAlertService emailUser1 = new EmailServiceServiceImpl(iPhoneStocks, "naman@gmail.com");

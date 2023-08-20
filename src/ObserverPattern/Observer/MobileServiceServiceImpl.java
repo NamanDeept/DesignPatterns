@@ -1,6 +1,6 @@
-package Observer;
+package ObserverPattern.Observer;
 
-import Observable.StockService;
+import ObserverPattern.Observable.StockService;
 
 public class MobileServiceServiceImpl implements NotificationAlertService {
 

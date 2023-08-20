@@ -1,11 +1,11 @@
-package Observable;
+package ObserverPattern.Observable;
 
-import Observer.NotificationAlertService;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class IPhoneStockServiceImpl implements  StockService {
+    List<Notificatio>
 
     List<NotificationAlertService> notificationAlertServiceList;
     int currentStockCount;
